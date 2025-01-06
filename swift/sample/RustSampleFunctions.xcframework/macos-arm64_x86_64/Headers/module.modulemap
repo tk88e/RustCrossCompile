@@ -1,0 +1,4 @@
+module RustSampleFunctions {
+    header "RustSampleFunctions.hh"
+    export *
+}
