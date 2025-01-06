@@ -1,0 +1,12 @@
+[package]
+name = "rust_sample_functions"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+name = "rust_sample_functions"
+crate-type = ["staticlib"] ## 今回は静的リンクリンカー(.a/.lib)以外使いません
+
+[target.'cfg(target_os="android")'.dependencies]
+jni = { version = "*", default-features = false }

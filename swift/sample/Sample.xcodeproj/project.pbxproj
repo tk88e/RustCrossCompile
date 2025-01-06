@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		D21C42052D2AD75B006E6D02 /* sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21C42052D2AD75B006E6D02 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D21C42072D2AD75B006E6D02 /* sample */ = {
+		D21C42072D2AD75B006E6D02 /* Sample */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = sample;
+			path = Sample;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -33,14 +33,14 @@
 			isa = PBXGroup;
 			children = (
 				D21C42062D2AD75B006E6D02 /* Products */,
-				D21C42072D2AD75B006E6D02 /* sample */,
+				D21C42072D2AD75B006E6D02 /* Sample */,
 			);
 			sourceTree = "<group>";
 		};
 		D21C42062D2AD75B006E6D02 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D21C42052D2AD75B006E6D02 /* sample.app */,
+				D21C42052D2AD75B006E6D02 /* Sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D21C42042D2AD75B006E6D02 /* sample */ = {
+		D21C42042D2AD75B006E6D02 /* Sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D21C42142D2AD75F006E6D02 /* Build configuration list for PBXNativeTarget "sample" */;
+			buildConfigurationList = D21C42142D2AD75F006E6D02 /* Build configuration list for PBXNativeTarget "Sample" */;
 			buildPhases = (
 				D21C42012D2AD75B006E6D02 /* Sources */,
 				D21C42022D2AD75B006E6D02 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				D21C42072D2AD75B006E6D02 /* sample */,
+				D21C42072D2AD75B006E6D02 /* Sample */,
 			);
-			name = sample;
+			name = Sample;
 			packageProductDependencies = (
 			);
 			productName = sample;
-			productReference = D21C42052D2AD75B006E6D02 /* sample.app */;
+			productReference = D21C42052D2AD75B006E6D02 /* Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D21C42002D2AD75B006E6D02 /* Build configuration list for PBXProject "sample" */;
+			buildConfigurationList = D21C42002D2AD75B006E6D02 /* Build configuration list for PBXProject "Sample" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D21C42042D2AD75B006E6D02 /* sample */,
+				D21C42042D2AD75B006E6D02 /* Sample */,
 			);
 		};
 /* End PBXProject section */
@@ -270,6 +270,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Headers/RustBridgeHeader.hh";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 				XROS_DEPLOYMENT_TARGET = 2.2;
@@ -307,6 +308,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Headers/RustBridgeHeader.hh";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
 				XROS_DEPLOYMENT_TARGET = 2.2;
@@ -316,7 +318,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D21C42002D2AD75B006E6D02 /* Build configuration list for PBXProject "sample" */ = {
+		D21C42002D2AD75B006E6D02 /* Build configuration list for PBXProject "Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D21C42122D2AD75F006E6D02 /* Debug */,
@@ -325,7 +327,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D21C42142D2AD75F006E6D02 /* Build configuration list for PBXNativeTarget "sample" */ = {
+		D21C42142D2AD75F006E6D02 /* Build configuration list for PBXNativeTarget "Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D21C42152D2AD75F006E6D02 /* Debug */,
