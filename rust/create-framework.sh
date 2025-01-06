@@ -16,7 +16,7 @@ cargo build --release
 
 ## Step.1 Build FAT binary for macOS
 lipo -create \
-  -output target//${BUILD_OPTION}/apple-darwin-${LINKER_NAME}.a \
+  -output target/${BUILD_OPTION}/apple-darwin-${LINKER_NAME}.a \
   target/aarch64-apple-darwin/${BUILD_OPTION}/${LINKER_NAME}.a \
   target/x86_64-apple-darwin/${BUILD_OPTION}/${LINKER_NAME}.a
 
@@ -25,8 +25,6 @@ cp ./build/module.modulemap target/includes
 xcodebuild -create-xcframework \
   -library target/${BUILD_OPTION}/apple-darwin-${LINKER_NAME}.a \
   -headers target/includes \
-  -library target/aarch64-apple-ios/${BUILD_OPTION}/${LINKER_NAME}.a \
-  -headers target/includes \
-  -library target/aarch64-apple-ios-sim/${BUILD_OPTION}/${LINKER_NAME}.a\
+  -library target/x86_64-apple-ios/${BUILD_OPTION}/${LINKER_NAME}.a \
   -headers target/includes \
   -output build/RustSampleFunctions.xcframework 
