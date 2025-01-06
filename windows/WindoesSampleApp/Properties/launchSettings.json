@@ -1,8 +1,5 @@
 {
   "profiles": {
-    "WindoesSampleApp (Package)": {
-      "commandName": "MsixPackage"
-    },
     "WindoesSampleApp (Unpackaged)": {
       "commandName": "Project"
     }
