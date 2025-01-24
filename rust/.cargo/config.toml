@@ -1,16 +1,13 @@
-[build]
+# [build.'cfg(target_os="macos")']
+# target = [
+#     "aarch64-apple-darwin"
+#     , "aarch64-apple-ios"
+#     , "aarch64-apple-ios-sim"
+# ] 
+
+[build.'cfg(target_os="windows")']
 target = [
-    ## Windows
-    "x86_64-pc-windows-msvc",
-    "aarch64-pc-windows-msvc",
-
-    ## Apple
-    "aarch64-apple-darwin",
-    "aarch64-apple-ios", 
-    "aarch64-apple-ios-sim",
-    "x86_64-apple-darwin",
-    "x86_64-apple-ios", 
-
-    ## Android
-
+    "i686-pc-windows-msvc"
+    , "x86_64-pc-windows-msvc"
+    , "aarch64-pc-windows-msvc"
 ] 

@@ -25,10 +25,11 @@ public sealed partial class MainWindow : Window
     public MainWindow()
     {
         this.InitializeComponent();
+
+        LeftTextBox.Text = "0";
+        RightTextBox.Text = "0";
     }
 
-    private void myButton_Click(object sender, RoutedEventArgs e)
-    {
-        myButton.Content = "Clicked";
-    }
+
+
 }

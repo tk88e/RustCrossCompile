@@ -10,6 +10,10 @@
     Title="WindoesSampleApp">
 
     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Button x:Name="myButton" Click="myButton_Click">Click Me</Button>
+        <TextBox x:Name="LeftTextBox" Text="{Binding LeftText, Mode=TwoWay}" />
+        <TextBlock Text="x"/>
+        <TextBox  x:Name="RightTextBox" Text="{Binding RightText, Mode=TwoWay}" />
+        <TextBlock Text="="/>
+        <TextBox Text="{Binding ResultValue}" />
     </StackPanel>
 </Window>
