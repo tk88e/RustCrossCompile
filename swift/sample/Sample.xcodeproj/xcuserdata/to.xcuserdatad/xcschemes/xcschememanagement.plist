@@ -4,6 +4,14 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+<<<<<<< HEAD
+=======
+		<key>Sample.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+>>>>>>> 8c4aba076fca9929bf29b6bdc1dd63b4059bfafc
 		<key>sample.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

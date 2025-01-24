@@ -3,10 +3,21 @@ name = "rust_sample_functions"
 version = "0.1.0"
 edition = "2021"
 publish = false
+<<<<<<< HEAD
+=======
+build = "./build/build.rs"
+>>>>>>> 8c4aba076fca9929bf29b6bdc1dd63b4059bfafc
 
 [lib]
 name = "rust_sample_functions"
 crate-type = ["staticlib"] ## 今回は静的リンクリンカー(.a/.lib)以外使いません
 
 [target.'cfg(target_os="android")'.dependencies]
+<<<<<<< HEAD
 jni = { version = "*", default-features = false }
+=======
+jni = { version = "*", default-features = false }
+
+[build-dependencies]
+cbindgen = "0.27.0"
+>>>>>>> 8c4aba076fca9929bf29b6bdc1dd63b4059bfafc

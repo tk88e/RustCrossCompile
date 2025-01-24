@@ -6,8 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
+<<<<<<< HEAD
 /* Begin PBXFileReference section */
 		D21C42052D2AD75B006E6D02 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+/* Begin PBXBuildFile section */
+		D22A82332D2C0B7800EE9E99 /* RustSampleFunctions.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22A82322D2C0B7800EE9E99 /* RustSampleFunctions.xcframework */; };
+		D22A82342D2C0B7900EE9E99 /* RustSampleFunctions.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D22A82322D2C0B7800EE9E99 /* RustSampleFunctions.xcframework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D22A82312D2C067F00EE9E99 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D22A82342D2C0B7900EE9E99 /* RustSampleFunctions.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D21C42052D2AD75B006E6D02 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22A82322D2C0B7800EE9E99 /* RustSampleFunctions.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RustSampleFunctions.xcframework; sourceTree = "<group>"; };
+>>>>>>> 8c4aba076fca9929bf29b6bdc1dd63b4059bfafc
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +48,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
+=======
+				D22A82332D2C0B7800EE9E99 /* RustSampleFunctions.xcframework in Frameworks */,
+>>>>>>> 8c4aba076fca9929bf29b6bdc1dd63b4059bfafc
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +63,10 @@
 			children = (
 				D21C42062D2AD75B006E6D02 /* Products */,
 				D21C42072D2AD75B006E6D02 /* Sample */,
+<<<<<<< HEAD
+=======
+				D21C42692D2BC268006E6D02 /* Frameworks */,
+>>>>>>> 8c4aba076fca9929bf29b6bdc1dd63b4059bfafc
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +78,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+		D21C42692D2BC268006E6D02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D22A82322D2C0B7800EE9E99 /* RustSampleFunctions.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+>>>>>>> 8c4aba076fca9929bf29b6bdc1dd63b4059bfafc
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -55,6 +99,10 @@
 				D21C42012D2AD75B006E6D02 /* Sources */,
 				D21C42022D2AD75B006E6D02 /* Frameworks */,
 				D21C42032D2AD75B006E6D02 /* Resources */,
+<<<<<<< HEAD
+=======
+				D22A82312D2C067F00EE9E99 /* Embed Frameworks */,
+>>>>>>> 8c4aba076fca9929bf29b6bdc1dd63b4059bfafc
 			);
 			buildRules = (
 			);
@@ -245,6 +293,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = sample/Resources/sample.entitlements;
+<<<<<<< HEAD
+=======
+				CODE_SIGN_IDENTITY = "";
+>>>>>>> 8c4aba076fca9929bf29b6bdc1dd63b4059bfafc
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"sample/Resources/Preview Content\"";
@@ -268,11 +320,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.www.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
+<<<<<<< HEAD
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Headers/RustBridgeHeader.hh";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
+=======
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+>>>>>>> 8c4aba076fca9929bf29b6bdc1dd63b4059bfafc
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
@@ -283,6 +344,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = sample/Resources/sample.entitlements;
+<<<<<<< HEAD
+=======
+				CODE_SIGN_IDENTITY = "";
+>>>>>>> 8c4aba076fca9929bf29b6bdc1dd63b4059bfafc
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"sample/Resources/Preview Content\"";
@@ -306,11 +371,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.www.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
+<<<<<<< HEAD
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Headers/RustBridgeHeader.hh";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
+=======
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+>>>>>>> 8c4aba076fca9929bf29b6bdc1dd63b4059bfafc
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
